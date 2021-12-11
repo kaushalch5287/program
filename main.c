@@ -11,15 +11,14 @@ Code, Compile, Run and Debug online from anywhere in world.
 #include <stdio.h>
 int main()
 {
-int i, end;
- printf("Print all natural numbers from 1 to : ");
- scanf("%d", &end);
- i=1;
- while(i<=end)
+ int n;
+ printf("Enter value of n: ");
+ scanf("%d", &n);
+while(n>=1)
  {
- printf("%d\n", i);
- i++;
+ printf("%d\n", n);
+ n--;
  }
- return 0;
+return 0;
 }
 
