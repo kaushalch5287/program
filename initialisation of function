@@ -1,0 +1,15 @@
+// initialisation of function
+#include <stdio.h>
+void display();
+
+int main()
+{
+    display();
+    printf("Hello World");
+
+    return 0;
+}
+void display()
+{
+    printf("display function\n");
+}
