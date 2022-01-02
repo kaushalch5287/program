@@ -1,0 +1,28 @@
+// a c program to run three functions
+#include<stdio.h>
+void goodmorning();
+void goodafternoon();
+void goodevening();
+
+int main()
+{
+    int a;
+    goodmorning();
+    goodafternoon();
+    goodevening();
+    return 0;
+    
+}
+
+void goodmorning()
+{
+    printf("good morning\n");
+}
+void goodafternoon()
+{
+    printf("good afternoon\n");
+}
+void goodevening()
+{
+    printf("good evening\n");
+}
